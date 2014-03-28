@@ -21,6 +21,16 @@
 		A843AC8318E3EC5C00B0C772 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A843AC6518E3EC5C00B0C772 /* UIKit.framework */; };
 		A843AC8B18E3EC5C00B0C772 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A843AC8918E3EC5C00B0C772 /* InfoPlist.strings */; };
 		A843AC8D18E3EC5C00B0C772 /* tagAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A843AC8C18E3EC5C00B0C772 /* tagAssignmentTests.m */; };
+		A843AC9718E3ED0F00B0C772 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A843AC9618E3ED0F00B0C772 /* Parse.framework */; };
+		A843AC9B18E3EDF200B0C772 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A843AC9A18E3EDF200B0C772 /* AudioToolbox.framework */; };
+		A843AC9D18E3EDF800B0C772 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A843AC9C18E3EDF800B0C772 /* CFNetwork.framework */; };
+		A843AC9F18E3EE0800B0C772 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A843AC9E18E3EE0800B0C772 /* CoreLocation.framework */; };
+		A843ACA118E3EE1500B0C772 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A843ACA018E3EE1500B0C772 /* libz.dylib */; };
+		A843ACA318E3EE1E00B0C772 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A843ACA218E3EE1E00B0C772 /* MobileCoreServices.framework */; };
+		A843ACA518E3EE2600B0C772 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A843ACA418E3EE2600B0C772 /* QuartzCore.framework */; };
+		A843ACA718E3EE3000B0C772 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A843ACA618E3EE3000B0C772 /* Security.framework */; };
+		A843ACA918E3EE3500B0C772 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A843ACA818E3EE3500B0C772 /* StoreKit.framework */; };
+		A843ACAB18E3EE3E00B0C772 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A843ACAA18E3EE3E00B0C772 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,18 @@
 		A843AC8818E3EC5C00B0C772 /* tagAssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tagAssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		A843AC8A18E3EC5C00B0C772 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A843AC8C18E3EC5C00B0C772 /* tagAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tagAssignmentTests.m; sourceTree = "<group>"; };
+		A843AC9618E3ED0F00B0C772 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A843AC9818E3ED4A00B0C772 /* Parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parse.h; sourceTree = "<group>"; };
+		A843AC9918E3ED6200B0C772 /* PFQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFQuery.h; sourceTree = "<group>"; };
+		A843AC9A18E3EDF200B0C772 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A843AC9C18E3EDF800B0C772 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A843AC9E18E3EE0800B0C772 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A843ACA018E3EE1500B0C772 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A843ACA218E3EE1E00B0C772 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A843ACA418E3EE2600B0C772 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A843ACA618E3EE3000B0C772 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A843ACA818E3EE3500B0C772 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A843ACAA18E3EE3E00B0C772 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +82,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A843ACAB18E3EE3E00B0C772 /* SystemConfiguration.framework in Frameworks */,
+				A843ACA918E3EE3500B0C772 /* StoreKit.framework in Frameworks */,
+				A843ACA718E3EE3000B0C772 /* Security.framework in Frameworks */,
+				A843ACA518E3EE2600B0C772 /* QuartzCore.framework in Frameworks */,
+				A843ACA318E3EE1E00B0C772 /* MobileCoreServices.framework in Frameworks */,
+				A843ACA118E3EE1500B0C772 /* libz.dylib in Frameworks */,
+				A843AC9F18E3EE0800B0C772 /* CoreLocation.framework in Frameworks */,
 				A843AC6418E3EC5C00B0C772 /* CoreGraphics.framework in Frameworks */,
+				A843AC9D18E3EDF800B0C772 /* CFNetwork.framework in Frameworks */,
+				A843AC9B18E3EDF200B0C772 /* AudioToolbox.framework in Frameworks */,
 				A843AC6618E3EC5C00B0C772 /* UIKit.framework in Frameworks */,
+				A843AC9718E3ED0F00B0C772 /* Parse.framework in Frameworks */,
 				A843AC6218E3EC5C00B0C772 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +133,16 @@
 		A843AC6018E3EC5B00B0C772 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A843ACAA18E3EE3E00B0C772 /* SystemConfiguration.framework */,
+				A843ACA818E3EE3500B0C772 /* StoreKit.framework */,
+				A843ACA618E3EE3000B0C772 /* Security.framework */,
+				A843ACA418E3EE2600B0C772 /* QuartzCore.framework */,
+				A843ACA218E3EE1E00B0C772 /* MobileCoreServices.framework */,
+				A843ACA018E3EE1500B0C772 /* libz.dylib */,
+				A843AC9E18E3EE0800B0C772 /* CoreLocation.framework */,
+				A843AC9C18E3EDF800B0C772 /* CFNetwork.framework */,
+				A843AC9A18E3EDF200B0C772 /* AudioToolbox.framework */,
+				A843AC9618E3ED0F00B0C772 /* Parse.framework */,
 				A843AC6118E3EC5B00B0C772 /* Foundation.framework */,
 				A843AC6318E3EC5C00B0C772 /* CoreGraphics.framework */,
 				A843AC6518E3EC5C00B0C772 /* UIKit.framework */,
@@ -117,6 +159,8 @@
 				A843AC7318E3EC5C00B0C772 /* Main.storyboard */,
 				A843AC7618E3EC5C00B0C772 /* ACViewController.h */,
 				A843AC7718E3EC5C00B0C772 /* ACViewController.m */,
+				A843AC9818E3ED4A00B0C772 /* Parse.h */,
+				A843AC9918E3ED6200B0C772 /* PFQuery.h */,
 				A843AC7918E3EC5C00B0C772 /* Images.xcassets */,
 				A843AC6818E3EC5C00B0C772 /* Supporting Files */,
 			);
@@ -377,6 +421,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tagAssignment/tagAssignment-Prefix.pch";
 				INFOPLIST_FILE = "tagAssignment/tagAssignment-Info.plist";
@@ -390,6 +438,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tagAssignment/tagAssignment-Prefix.pch";
 				INFOPLIST_FILE = "tagAssignment/tagAssignment-Info.plist";

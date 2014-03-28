@@ -10,4 +10,7 @@
 
 @interface ACViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *numberOfUsers;
+@property (strong, nonatomic) IBOutlet UILabel *numberOfTagsSent;
+@property (strong, nonatomic) IBOutlet UILabel *numberOfTagsReceived;
 @end

@@ -6,18 +6,26 @@
 //  Copyright (c) 2014 Andrew Christie. All rights reserved.
 //
 
+#import "ACViewController.h"
+#import <Parse/Parse.h>
 #import "ACAppDelegate.h"
 
 @implementation ACAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    [Parse setApplicationId:@"MYFnKiYJtcVup74eP0PAowsIzNMK0g2WhiGh4HKF"
+                  clientKey:@"ejAqQ6YnIwKVFQo4YYAd086Nv9rA5XhgG9Zkb5UA"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     return YES;
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
+    
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
